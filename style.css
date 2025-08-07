@@ -1,103 +1,80 @@
 body {
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.continer {
-    padding: 20px;
+img:hover {
+  transform: scale(1.02); 
+  transition: transform 0.3s;
+  /* Optional: width: 100%; */
+}
+
+.container { /* Typo fix from .continer to .container */
+  padding: 0;
+  margin-top: 0;
 }
 
 .section-one {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 
 .section-two {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
-
-
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
-.section-two__one {
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: solid 2px black;
-}
-
-.section-two__two {
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: solid 2px black;
-}
-
-.section-two__three {
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: solid 2px black;
-}
-
+.section-two__one,
+.section-two__two,
+.section-two__three,
 .section-two__four {
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: solid 2px black;
+  display: inline-block;
+  padding: 20px 0;
+  border: 2px solid black;
+}
+
+input {
+  border-radius: 4px;
+  border: none;
+  padding: 2px;
 }
 
 .section-two__order {
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding-left: 6px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding: right 6px;
-    ;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  transition: all 0.2s;
 }
 
 .section-two__order:hover {
-    background-color: aqua;
-    color: black;
-    padding-left: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding: right:4px;
-
+  background-color: rgb(255, 42, 78);
+  padding: 5px 13px;
+  cursor: pointer;
 }
 
 .section-three {
-    text-align: center;
-    background-color: black;
-    color: white;
-padding-bottom: 35px;
-
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 35px;
 }
 
 .section-four__order {
-    background-color: rgb(255, 255, 255);
-    color: rgb(18, 0, 51);
-    border: none;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right:10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  transition: all 0.2s;
 }
-.section-four__order:hover{
-    background-color: lightblue;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right:5px;
+
+.section-four__order:hover {
+  background-color: rgb(255, 217, 1);
+  color: black;
+  cursor: pointer;
 }
